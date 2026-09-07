@@ -95,7 +95,6 @@ const Array1 = [
     icon: <ReceiptOutlinedIcon />,
     path: "/invoices",
   },
-  // ✅ أضف هذا السطر
   {
     text: "Tasks",
     icon: <TaskOutlinedIcon />,
@@ -146,13 +145,13 @@ const SideBar = ({ open, handleDrawerClose }) => {
           transition: "0.25s",
         }}
         alt="Remy Sharp"
-        src="../../public/user.png"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5Z5Z0n6lsyYCF8pX5AyeMEIsTIlgCQXPi6rDnQsRoQ&s=10"
       />
       <Typography
         align="center"
         sx={{ fontSize: open ? 17 : 0, transition: "0.25s" }}
       >
-        Orax Soft
+        Osama Taweel
       </Typography>
       <Typography
         align="center"
